@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta  charset="utf-8" />
+        <meta name = "author" content = "Pooja">
+        <meta name = "Description" content = "Contact">
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href = "style.css">
+    </head>
+    <body>
+        <h1>
+            Contact Me!
+        </h1>
+        <p> Got a question or query? Feel free to contact me.</p>
+        <form action = "https://httpbin.org/get" method = "get">
+            <fieldset>
+                <legend> Personal Info</legend>
+                <p>
+                    <label for = "firstName" > First Name: </label>
+                    <input type = "text" name = "firstName" id = "firstName" placeholder = "Jane" autocomplete = "on" required autofocus>
+                </p>
+                <p>
+                    <label for = "surName" > Second Name: </label>
+                    <input type = "text" name = "surName" id = "surName" placeholder = "Auston">
+                </p>
+                <p>
+                    <label for = "Phone"> Phone Number: </label>
+                    <input type = "tel" name = "Phone" id = "Phone" placeholder = "999999999">
+                </p>
+                <p>
+                    <label for = "email">  Email Address: </label>
+                    <input type  = "email" name = "email" id = "email" placeholder = "abcd@gmail.com">
+               </p>
+               <p>
+                <label for = "message"> Message: </label>
+                <textarea  name = "message" id = "message" placeholder  = "start here" cols = "30" rows="10">
+                    </textarea>
+               </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

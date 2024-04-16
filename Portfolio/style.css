@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&family=Style+Script&family=Tauri&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+        margin: 0;
+        padding: 0;
+        font-family: "Tauri", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: black;
+        background-position: center;
+        
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin: 30px;
+    text-shadow: 2px  whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    position: sticky;
+   
+    
+}
+
+
+.Home{
+    padding: 40px;
+    background-color: rgb(231, 203, 231);
+    height: 40vh;
+}
+.one{
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+.subhead{
+    color: rgb(154, 113, 135);
+}
+.about{
+   overflow: auto;
+
+    
+    
+}
+h1{
+    background-color: bisque;
+
+    margin-top:40px;
+    text-align: center;
+    padding : 30px;
+    font-size: 2rem;
+    font-weight: normal;
+
+}
+
+.photo{
+    float: right;
+    margin: 20px;
+}
+.Me{
+    font-size: 1.5ch;
+    padding-top: 30px;
+    margin: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+.end{
+    text-align: center;
+}
+.copy{
+    text-align: center;
+}
