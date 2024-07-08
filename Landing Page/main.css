@@ -1,0 +1,186 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    background-color: black;
+}
+body{
+    color: white;
+}
+
+/*.cobalt{
+    margin: 20px;
+    padding:20px;
+}
+
+
+ul{
+    display:inline;
+}
+.wishlist, .blog{
+    
+    float: right;
+    margin: 20px;
+    color: white; 
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size:1.5rem ;
+
+
+
+
+}*/
+ul{
+    margin: 25px;
+
+
+}
+li{
+    display: inline;
+
+}
+.icon{
+    display : flex;
+    color :white;
+    float:left;
+  
+    
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size:1.5rem ;
+
+    
+}
+.righties{
+    padding-right: 30px;
+    float: right;
+    color: white; 
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size:1rem ;
+    
+}
+.blog{
+    font-size: 
+}
+.waitlist{
+    border: 2px solid rgba(76, 76, 123, 0.664);
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(38, 38, 88, 0.566);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 5rem;
+    clear: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content{
+    padding: 40px;
+    word-spacing: 0.3rem;
+    font-size:1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;;
+    
+}
+.graph{
+    display : block;
+    margin: auto;
+    padding: 40px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.boring{
+    width: 70%;
+    height: 10%;
+    padding: 20px;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.anything, .toolkit{
+    line-height: 1.6rem;
+    padding: 20px;
+    font-weight: lighter;
+    color: rgb(161, 159, 159);
+    font-size: 1.2rem;
+}
+.bold{
+    color: white;
+}
+.second{
+    text-align: left;
+    margin: 20px;
+    width: 70%;
+    height: 10%;
+    padding: 20px;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.toolkit{
+    text-align: left;
+    width: 65%;
+    margin: 20px;
+    word-spacing: 0.2rem;
+}
+
+.flexible{
+    color: white;
+}
+
+.features{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.feature{
+    padding: 20px;
+    font-size: 1.8rem;
+    background-color: rgb(18, 18, 23);
+    height: 60px;
+
+}
+.template{
+    border: grey 2px solid;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(18, 18, 23);
+}
+.contain{
+    background-color: rgb(18, 18, 23);
+    margin: auto;
+}
+.open{
+    background-color: rgb(18, 18, 23);
+    color:rgb(161, 159, 159);
+    font-size: 1.2rem;
+    padding: 10px;
+}
